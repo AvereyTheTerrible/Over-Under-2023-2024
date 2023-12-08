@@ -19,8 +19,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1187dcc-a41c-4a92-b601-d0752499dad9" name="Changes" comment="Added OkapiLib and RBPLib and initialized OdomChassiController.">
+    <list default="true" id="e1187dcc-a41c-4a92-b601-d0752499dad9" name="Changes" comment="Commented code with detailed, line by line explanations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rbplib/api.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/rbplib/api.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rbplib/opcontrol/util/driveCurves.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/rbplib/opcontrol/util/driveCurves.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.pros" beforeDir="false" afterPath="$PROJECT_DIR$/project.pros" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,31 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MakefileLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="over_under" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="over_under" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-      </map>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AvereyTheTerrible"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="504cef78-98d6-4dba-8013-4948b655b600" />
+        <option name="url" value="https://github.com/AvereyTheTerrible/Over-Under-2023-2024.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="ProjectApplicationVersion">
@@ -88,6 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
@@ -102,7 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Makefile Application.all">
+  <component name="RunManager" selected="Native Application.Makefile">
     <configuration name="Makefile" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="over_under" TARGET_NAME="Makefile" CONFIG_NAME="Makefile" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
@@ -134,12 +125,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Makefile Application.all" />
-      <item itemvalue="Makefile Application.quick" />
-      <item itemvalue="Makefile Application.bin" />
-      <item itemvalue="Makefile Application.cc-sysroot" />
-      <item itemvalue="Makefile Application.cxx-sysroot" />
-      <item itemvalue="Makefile Application.Makefile" />
+      <item itemvalue="Native Application.Makefile" />
+      <item itemvalue="Native Application.all" />
+      <item itemvalue="Native Application.bin" />
+      <item itemvalue="Native Application.cc-sysroot" />
+      <item itemvalue="Native Application.cxx-sysroot" />
+      <item itemvalue="Native Application.quick" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -157,7 +148,9 @@
       <workItem from="1701400118710" duration="1021000" />
       <workItem from="1701402392445" duration="6797000" />
       <workItem from="1701457294409" duration="599000" />
-      <workItem from="1701464604453" duration="3805000" />
+      <workItem from="1701464604453" duration="7398000" />
+      <workItem from="1701799183951" duration="599000" />
+      <workItem from="1701968976532" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="Added OkapiLib and RBPLib and initialized OdomChassiController.">
       <option name="closed" value="true" />
@@ -167,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701468025983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commented code with detailed, line by line explanations.">
+      <option name="closed" value="true" />
+      <created>1701488269561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701488269561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added OkapiLib and RBPLib and initialized OdomChassiController." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added OkapiLib and RBPLib and initialized OdomChassiController." />
+    <MESSAGE value="Commented code with detailed, line by line explanations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented code with detailed, line by line explanations." />
   </component>
 </project>

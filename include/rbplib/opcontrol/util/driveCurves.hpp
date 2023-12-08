@@ -24,6 +24,8 @@ namespace rbplib
 	inline double exponentialSumCurve(const double ivalue,
 									  const double igain)
 	{
+		// If gain is 0 (uses < operator because of floating-point inaccuracies) pass
+		// through input value.
 		if (fabs(igain) < EPSILON)
 			return ivalue;
 		return std::clamp((powf(2.718, -igain)
@@ -34,7 +36,7 @@ namespace rbplib
 	/**
 	 * Applies a function comprised of a single exponential functions. Inspired by
 	 * 5225, the Pilons. Visualization of curve is here (blue graph):
-	 * https://www.desmos.com/calculator/n3gwt6w4t5 (ctrl + click to open link)
+	 * https://www.desmos.com/calculator/rrbvbmxvqo
 	 *
 	 *
 	 * @param ivalue Input from joystick
@@ -44,6 +46,8 @@ namespace rbplib
 	inline double scaledExponentialCurve(const double ivalue,
 								  		 const double igain)
 	{
+		// If gain is 0 (uses < operator because of floating-point inaccuracies) pass
+		// through input value.
 		if (fabs(igain) < EPSILON)
 			return ivalue;
 		return std::clamp((powf(2.718, igain * (fabs(ivalue) - 1) / 4)) * ivalue, -1.0,

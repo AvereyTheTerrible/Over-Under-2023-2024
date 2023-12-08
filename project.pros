@@ -308,7 +308,7 @@
                 "version": "4.8.0"
             },
             "rbplib": {
-                "location": "/home/aku/.config/pros/templates/rbplib@1.0.0",
+                "location": "/home/aku/.config/pros/templates/rbplib@1.0.2",
                 "metadata": {
                     "origin": "local"
                 },
@@ -316,13 +316,13 @@
                 "py/object": "pros.conductor.templates.local_template.LocalTemplate",
                 "supported_kernels": "^3.8.0",
                 "system_files": [
-                    "include/rbplib/opcontrol/util/driveCurves.hpp",
                     "include/rbplib/api.hpp",
-                    "firmware/rbplib.a"
+                    "firmware/rbplib.a",
+                    "include/rbplib/opcontrol/util/driveCurves.hpp"
                 ],
                 "target": "v5",
                 "user_files": [],
-                "version": "1.0.0"
+                "version": "1.0.2"
             }
         },
         "upload_options": {}

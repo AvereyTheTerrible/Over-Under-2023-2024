@@ -84,7 +84,7 @@ void opcontrol()
 		.withMotors(
 			{1, 2, 3},
 			{-4, -5, -6}
-			) // Adds motors with ports 1, 2, 3 on left and 4, 5, 6 on right.
+		) // Adds motors with ports 1, 2, 3 on left and 4, 5, 6 on right.
 		.withGains(
 			{0.001, 0, 0.0001}, // Distance gains: kP, kI, kD.
 			{0.001, 0, 0.0001}, // Angle gains: kP, kI, kD.
@@ -102,8 +102,7 @@ void opcontrol()
 
 	Controller controller; // Creates master controller.
 
-	// Main operator control loop.
-	while (true)
+	while (true) // Main operator control loop.
 	{
 		// Controls the chassis using the tank drive layout where the velocity of each
 		// side of the chassis is controlled by a separate joystick.
@@ -111,14 +110,14 @@ void opcontrol()
 			// Applies a curve to joystick input. Allows for more precise control of
 			// smaller movements. Visualization and in-depth explanation can be found
 			// in include/rbplib/opcontrol/util/driveCurves.hpp
-			scaledExponentialCurve(
+			rbplib::scaledExponentialCurve(
 				controller.getAnalog(ControllerAnalog::leftY), // Gets joystick value
 				// from [-1, 1] of left vertical axis
 				8.0 // Applies gain (scale) to curve function.
 			),
-			scaledExponentialCurve(
+			rbplib::scaledExponentialCurve(
 				controller.getAnalog(ControllerAnalog::rightY), // Gets joystick value
-				// from [-1, 1] of left vertical axis
+				// from [-1, 1] of right vertical axis
 				8.0 // Applies gain (scale) to curve function.
 			)
 		);
