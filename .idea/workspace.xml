@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1187dcc-a41c-4a92-b601-d0752499dad9" name="Changes" comment="Commented code with detailed, line by line explanations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rbplib/api.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/rbplib/api.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rbplib/opcontrol/util/driveCurves.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/rbplib/opcontrol/util/driveCurves.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.pros" beforeDir="false" afterPath="$PROJECT_DIR$/project.pros" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +43,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AvereyTheTerrible"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AvereyTheTerrible&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -73,26 +71,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/aku/vex/pros_projects/over_under",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aku/vex/pros_projects/over_under&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Native Application.Makefile">
     <configuration name="Makefile" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="over_under" TARGET_NAME="Makefile" CONFIG_NAME="Makefile" version="1">
       <method v="2">
@@ -150,7 +149,35 @@
       <workItem from="1701457294409" duration="599000" />
       <workItem from="1701464604453" duration="7398000" />
       <workItem from="1701799183951" duration="599000" />
-      <workItem from="1701968976532" duration="886000" />
+      <workItem from="1701968976532" duration="952000" />
+      <workItem from="1702006980659" duration="649000" />
+      <workItem from="1702072318886" duration="8065000" />
+      <workItem from="1702182022744" duration="4639000" />
+      <workItem from="1702248764824" duration="1861000" />
+      <workItem from="1702327837073" duration="7056000" />
+      <workItem from="1702341182904" duration="898000" />
+      <workItem from="1702342425733" duration="5594000" />
+      <workItem from="1702418540664" duration="117000" />
+      <workItem from="1702434378562" duration="1478000" />
+      <workItem from="1702738412118" duration="1957000" />
+      <workItem from="1702765689160" duration="1467000" />
+      <workItem from="1702837360257" duration="73000" />
+      <workItem from="1703024349615" duration="2048000" />
+      <workItem from="1703038101103" duration="1316000" />
+      <workItem from="1703109435041" duration="8886000" />
+      <workItem from="1703294835996" duration="630000" />
+      <workItem from="1703383084245" duration="4213000" />
+      <workItem from="1703387965255" duration="2881000" />
+      <workItem from="1703422592045" duration="1467000" />
+      <workItem from="1703613430990" duration="599000" />
+      <workItem from="1703634024704" duration="10740000" />
+      <workItem from="1703706606345" duration="600000" />
+      <workItem from="1703715945462" duration="1403000" />
+      <workItem from="1703718683491" duration="4302000" />
+      <workItem from="1703724535027" duration="2499000" />
+      <workItem from="1703782127222" duration="2775000" />
+      <workItem from="1703790310828" duration="4017000" />
+      <workItem from="1703809753745" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Added OkapiLib and RBPLib and initialized OdomChassiController.">
       <option name="closed" value="true" />
@@ -168,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701488269561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commented code with detailed, line by line explanations.">
+      <option name="closed" value="true" />
+      <created>1702006943937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702006943937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

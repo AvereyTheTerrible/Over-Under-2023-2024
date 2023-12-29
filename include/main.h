@@ -41,6 +41,7 @@
  */
 #include "okapi/api.hpp"
 #include "rbplib/api.hpp"
+#include <iostream>
 //#include "pros/api_legacy.h"
 
 /**
